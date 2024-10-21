@@ -7,7 +7,7 @@ export default function Home(){
     useEffect(() => {
         const receberListaProdutos = async() => {
             try {
-                const resposta = await fetch('https://fakestoreapi.com/products');
+                const resposta = await fetch('https://fakestoreapi.com/product');
                 const dados = await resposta.json();
                 setLista(dados);
             }catch {
