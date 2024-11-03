@@ -3,5 +3,112 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    color: red; 
+    color: rgb(0, 0, 0); 
+}
+
+.logo {
+    width: 43px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.cabecalho {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(120, 226, 208);
+    border: 5px solid rgba(162, 191, 192, 0.829);
+    margin-bottom: 70px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(18, 82, 87);
+}
+
+.link {
+    display: inline-flex; 
+    align-items: center;
+    margin-left: 35px; 
+}
+
+.link:hover {
+    transform: scale(1.3); 
+    opacity: 0.9;
+}
+
+.icone {
+    width: 26px;
+    height: auto; 
+    vertical-align: middle; 
+}
+
+.titulo {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(97, 23, 75);
+    text-shadow: 5px 15px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+    border: 1px solid #67d1c8;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(120, 226, 208);
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.cabecalho {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.rodape {
+    background-color: rgb(120, 226, 208);
+    border: 5px solid rgba(162, 191, 192, 0.829);
+    margin-top: 30px;
+    justify-content: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.rodape li {
+    margin: 0 30px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.rodape li:hover {
+    color: rgb(58, 58, 199);
+}
+
+.fim {
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    line-height: 5;
 }
